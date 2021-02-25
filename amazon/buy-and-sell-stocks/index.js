@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maxProfit = function (prices) {
-  //     prices.sort((x,y) => x - y)
+  //     prices.sort((x,y) => x - y)  
   //    return prices[prices.length - 1] - prices[0]
 
   let maxprofit = 0;

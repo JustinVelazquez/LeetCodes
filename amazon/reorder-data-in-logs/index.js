@@ -3,7 +3,7 @@
  * @return {string[]}
  */
 var reorderLogFiles = function (logs) {
-  // Take in our array of logs
+  // Take in an array of logs
   // we then want to separate our logs into 2 differnt arrays
   // For every log in our letterlogs array we perform a check to see if the last element is a number or not and sort accordingly
   // We then sort our letterLog array by using localeCompare to sort lexiography. first by contents and then by the identifier

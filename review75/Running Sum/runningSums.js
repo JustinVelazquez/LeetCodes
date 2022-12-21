@@ -18,10 +18,7 @@ var runningSum = function (nums) {
   //PREP
 
   let sumArray = new Array(nums.length);
-
-  // for(num in nums) {
-  //     num[]
-  // }
+  
   sumArray[0] = nums[0];
   for (let i = 1; i < nums.length; i++) {
     sumArray[i] = sumArray[i - 1] + nums[i];
